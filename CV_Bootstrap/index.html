@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href ="css/style.css">
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -29,58 +29,77 @@
       
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li>
-        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-        </li>
-
         <li class="nav-item">
         <a class="nav-link" href="#">Sobre mi</a>
         </li>
 
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trabajos</a>
-      
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Revistas</a>
-          <a class="dropdown-item" href="#">Libros</a>
-          <a class="dropdown-item" href="#">Publicidades</a>
-          <a class="dropdown-item" href="#">Otros trabajos</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-        
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="#">Contacto</a>
         </li>
       </ul>
     </div>
   </nav>
+<main role="main">
 
+    <hr>
 
-      <div class="container">
-        <h1></h1>      
-        <p class="text-center">Soy Ana Madero y me dedico al diseño gráfico. Mi experiencia principal ha sido en editoriales, estudios de diseño y he trabajado para empresas como Glaxo, Mercadona o Toys'R'us. </p>
-      </div>
-  
-    
-    <!-- <div class="container_text">
-        <p class="text-center">ESTOY ESPECIALIZADA EN:</p>       
-    </div> -->
+        <section class="text-center">
+          <div class="container">
+            <h2 class="heading">Soy Ana Madero y me dedico al diseño gráfico. Mi experiencia principal ha sido en editoriales, estudios de diseño y he trabajado para empresas como Glaxo, Mercadona o Toys'R'us.</h2>
+          </div>
+        </section>
 
-  <div class="container-flex">
-    <div class="mx-auto bg-secondary text-center" style="width:150px">MI PORTFOLIO</div>
-  </div>
-          
+        <div class="container-flex">
+            <div class="mx-auto bg-secondary text-center" style="width:150px">PORTFOLIO</div>
+          </div>
 
-  <div class="d-flex">
-      <div class="p-2 bg-info flex-fill text-center">Revistas</div>
-      <div class="p-2 bg-warning flex-fill text-center">Libros</div>
-      <div class="p-2 bg-primary flex-fill text-center">Publicidad</div>
-    </div>
+          <hr>
 
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="./assets/portfolio/20180806_162409.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-text">Revistas</h3>
+                  <p class="card-text">Trabajé como diseñador gráfico en la editorial <strong>Globus Comunicación</strong> en revistas como <i>Casa&Campo, Psicología Práctica, Yoga Journal, Cocina Ligera, Mi Jardín...</i> Tanto sus ediciones impresas como digitales. "</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-text">Revistas corporativas</h3>
+                  <p class="card-text">Responsable de diseño de la revista <strong>La Perfumería de Mercadona</strong> en tres idiomas, castellano, inglés y catalán.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-text">Catálogos</h3>
+                  <p class="card-text">Diseñador gráfico en el estudio que como implant trabaja en el departamento de marketing de <strong>Toys'R'Us</strong></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+</main>
 </body>
-
-</html>
