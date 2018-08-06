@@ -1,87 +1,146 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aprendiendo Bootstrap</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Album example for Bootstrap</title>
 
-<!-- <div class="col-xs|sm|md|lg|xl-1-12"> -->
+    <!-- Bootstrap core CSS -->
+    <link href="./css/style2.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/album.css" rel="stylesheet">
+  </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs|sm|md|lg|xl-1-12">
-                
-            </div>
-            
-        </div>
-    </div>
-    <div class="header-wrapper">
-        <div class="container">
-            <div class="row">
-                <header class="col-12 text-center">
-                    <h1>Aprendiendo Bootstrap</h1>
-                </header>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <nav class="col-12 col-lg-2">
-                <p>Menu</p>
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-danger">Acceder</button>
-            </nav>
-            <main class="col-12 col-md-8 col-lg-7">
-                <h2>Contenido</h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque natus quia, perferendis in eos atque esse hic rerum totam assumenda? Vel praesentium soluta accusamus id sed architecto mollitia ullam quos?</p>
-                        <p>Dolore sequi neque maiores cum atque tenetur unde, non harum fugit, earum nobis. Quas expedita animi nostrum unde placeat eaque maxime reprehenderit accusamus distinctio! Repellendus officiis quia deleniti consequuntur blanditiis.</p>
-                        <p>Beatae ut nisi dolor eaque incidunt mollitia unde rem doloribus labore ullam aliquid fuga iste sequi, sunt nostrum animi accusantium eius dolores. Doloremque autem, quo pariatur qui ab rem odio?</p>            
-                    </div>
-                    <div class="col-lg-6">
-                        <p>Repellendus inventore et harum, eum sint rem culpa nobis commodi, temporibus voluptas recusandae impedit id qui, ex ducimus praesentium ab similique. Consequuntur quisquam omnis earum repudiandae deserunt alias, accusantium nobis?</p>
-                        <p>Excepturi voluptatem eveniet quas veniam, provident similique numquam repellat, aut voluptatum quod animi esse aliquam natus, illo sed accusantium beatae sint repudiandae? Deserunt minima voluptate voluptas voluptatum pariatur hic repudiandae.</p>
-                        <p>Nisi ratione minima iusto vel excepturi corrupti unde natus temporibus, tempore ipsum veritatis dolores accusamus dicta, blanditiis modi doloribus maiores, aspernatur voluptatum necessitatibus laboriosam cumque delectus obcaecati veniam! Quas, laudantium?</p>            
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <header class="col-12 text-center">
+                            </header>
+                        </div>
                     </div>
                 </div>
-                
-               
-            </main>
-            <aside class="col-12 col-md-4 col-lg-3">
-                <h2>Aside</h2>
-            </aside>
-        </div>
-    </div>
-    <div class="footer-wrapper">
-        <div class="container">
-            <div class="row">
-                <footer class="col-12 text-center">
-                    <p>Footer</p>
-                </footer>
-            </div>
-        </div>
-    </div>
-</body>
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li>
+                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+            
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre mi</a>
+                    </li>
+            
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trabajos</a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Revistas</a>
+                      <a class="dropdown-item" href="#">Libros</a>
+                      <a class="dropdown-item" href="#">Publicidades</a>
+                      <a class="dropdown-item" href="#">Otros trabajos</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            
 
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Album example</h1>
+          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+  </body>
 </html>
