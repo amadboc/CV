@@ -5,9 +5,14 @@
   
   #image-gallery .modal-footer{
     display: block;
+    width: 100%;
   }
   
   .thumb{
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .img-thumbnail {
+    width: 100%;
   }
