@@ -4,9 +4,9 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-}
+/* body {
+font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+} */
 
 hr {
   max-width: 50px;
@@ -29,14 +29,14 @@ a:hover {
   color: #b8a07e;;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
+} */
 
 .bg-primary {
   background-color: #b8a07e !important;
