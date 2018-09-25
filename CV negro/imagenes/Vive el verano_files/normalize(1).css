@@ -1,0 +1,44 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    margin: 0 auto;
+    padding: 0;
+    font-family: calibri;
+    font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+
+hr {
+   border-bottom: medium none;
+    border-top: 3px dashed #DBDBDB;
+    clear: both;
+    margin: 20px 0;
+}
+
+p, pre {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+
+li {
+    list-style: none outside none;
+}

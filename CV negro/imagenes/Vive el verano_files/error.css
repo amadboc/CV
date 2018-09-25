@@ -1,0 +1,63 @@
+.alert{
+   margin-top: 20px;
+   margin-left: 20px;
+   color: #3E9E2B;
+}
+.error_container{
+    float: left;
+    height: 60px;
+    left: 15%;
+    margin-top: -20px;
+    position: absolute;
+    width: 50%;
+}
+.error {
+    background: url("../../images/error.png") no-repeat scroll 20px center red;
+    border: 3px solid white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px #555555;
+    color: white;
+    font-size: 1.2em;
+    height: auto;
+    padding: 10px 40px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.text_exception, #error_gen, .pag_error {
+    background: url(../../images/404.png) no-repeat left;
+    padding: 60px 0 5px 160px;
+    min-height: 150px;
+}
+.text_exception h1, #error_gen h1, .pag_error h1{
+    color:#4FC3CE;
+    font-family: serif;
+    font-style:italic;
+    font-size: 1.8em;
+    width: 70%;
+}
+.text_exception div, #error_gen div, .pag_error div{
+    font-family:serif;
+    font-style:italic;
+    font-size:1.4em;
+}
+#e404{
+    width:80%;
+    margin:0px auto;
+    background: url("../../images/404.png") no-repeat left;
+}
+.text_exception h1{
+    font-family: droid;
+}
+.text_exception div{
+    font-family:droid;
+}
+@media handheld, screen and (max-width: 640px) {
+	.error_container{
+	    margin-top: -30%;
+	}
+}
+
+
