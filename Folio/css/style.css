@@ -257,20 +257,20 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color:white;
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color:white;
   font-weight: 500;
 }
 
